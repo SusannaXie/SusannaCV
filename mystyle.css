@@ -1,0 +1,113 @@
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, form, button, input, textarea, th, td, table, a, em, span, img, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { margin: 0; padding: 0; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { font-family: Arial, "Microsoft YaHei", sans-serif; font-size: 14px;}
+h1, h2, h3 { font-size: 14px; font-weight: normal; font-style: normal; }
+ul, li, dl, dt, dd { list-style: none; }
+input, select, img, button { vertical-align: middle; border: none; }
+button, input, textarea { border: 1px solid #ddd; border-radius: 0;background: transparent; -webkit-appearance: none; }
+input[type=checkbox] { -webkit-appearance: checkbox; }
+table { border-spacing: 0; border-collapse: collapse; }
+p { word-wrap: break-word; }
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+a[href], input[type="submit"], label[for], select, button, .pointer { cursor: pointer; }
+input, textarea, select { outline: none; }
+.clearfix { zoom: 1; }
+.clearfix:after { display: block; visibility: hidden; clear: both; overflow: hidden; height: 0; content: "."; }
+.fl { float: left; }
+.fr { float: right; }
+.textc { text-align: center; }
+.wraper{background: url(images/bg.jpg) center bottom no-repeat #fff;}
+.toptop{height: 5px;background: pink;box-shadow: 1px 1px 10px rgba(0,0,0,0.2);}
+/*resume*/
+.h2{font-size: 20px;color: pink;font-weight: bold;line-height: 50px;background:rgba(255,192,203,0.8);color: #fff;box-shadow: 1px 1px 10px rgba(0,0,0,0.3)}
+h3{font-size: 20px;color: pink;margin-top: 50px;display: block;}
+.download a{display: inline-block;margin-top: 20px;}
+.download a input{cursor: pointer;border: none;background: pink;border-radius: 3px;color: #fff;padding: 7px 20px;font-size: 18px;}
+table{border: 1px solid #ccc;}
+.table th{padding: 20px;width: 10px;}
+.table td{border-bottom: 1px solid #ccc;border-right:1px solid #ccc;padding: 20px;line-height: 20px;font-size: 13px;}
+.table td li{font-size: 13px;margin-bottom: 10px;}
+@media screen and (min-width: 640px) { 
+.wraper { min-height: 100%; margin-bottom: -100px; /* 等于footer的高度 */ }
+.wraper:after {display: block; width: 100%; height: 100px; content: ""; }
+.top {overflow: hidden;  width: 1000px;margin: 0 auto; }
+.top .top_left {float: left;  width: 122px; margin-top: 15px;}
+.top .share { line-height: 30px;  height: 40px; text-align: right; color: #999; }
+.top .share .jiathis_style{ float: right;margin-top: 10px; }
+.top .top_nav { float: left; margin-left: 30%;}
+.top .top_nav .nav { overflow: hidden; margin-top: 15px; }
+.top .top_nav .nav-btn{ display: none; }
+.top .top_nav li { float: left; margin-right: 15px; }
+.top .top_nav li a {font-size: 16px;  display: block; padding: 10px 20px; transition: all .5s; text-align: center; color: #000; }
+.top .top_nav li:hover a {color: #fff;  background: pink; }
+.top .top_nav li.active a {color: #fff;   background: pink; }
+.top .top_right{float: right;}
+.top .top_right{margin-top: 20px;}
+.top .top_right img{margin-top: 5px;}
+.top .top_right .select select{height: 30px;line-height: 30px;font-size: 13px;}
+.myself_content {overflow: hidden;  width: 1000px; margin: 30px auto 0; }
+.myself_content .photo .img{width: 30%; float: left;}
+.myself_content .photo .img_con{width: 50%;margin-left: 10%;float: left;}
+.myself_content .photo .img_btn{padding: 6px 15px;color: red;border: 1px solid red;}
+.img_con h2{font-size: 22px;line-height: 40px;color: red;}
+.img_con p{font-size: 15px;line-height: 35px;margin-bottom: 30px;}
+.myself_content .myself_content_l { float: left; width: 300px; }
+.myself_content .myself_content_l .left h2{font-size: 18px;font-weight: bold;line-height: 30px;letter-spacing: 1px;color: pink;font-style:oblique;}
+.myself_content .myself_content_l .left h3{font-size: 18px;font-weight: bold;line-height: 30px;letter-spacing: 1px;color: #999;font-style:oblique;}
+.myself_content .myself_content_l .left .share{margin-top: 10px;}
+.myself_content .me_content{margin-top: 20px;}
+.myself_content .me_content h2{font-size: 20px;font-weight: bold;color: pink;line-height: 40px;border-bottom: 1px solid pink;margin: 30px auto 10px auto;}
+.myself_content .me_content p{width: 98%;margin:10px auto 30px auto; line-height: 30px;font-size: 13px;text-indent: 30px;}
+.myself_content .myself_content_r{margin-left: 100px;border-left: 2px solid pink;padding-left: 150px;}
+.h{height: 30px;}
+.hh{height: 100px;}
+.myself_content .myself_content_r .text{font-family: "微软雅黑"; display: block; width: 400px;line-height: 30px;font-size: 13px;padding: 5px 20px; border: 1px solid pink;border-radius: 3px;margin-bottom: 20px;}
+.myself_content .myself_content_r .btn{background: pink;color: #fff;padding: 5px 15px;cursor: pointer;}
+.myself_content .myself_content_r .btn:hover{font-weight: bold;}
+.footer {font-size: 16px; line-height: 60px;  width: 100%; height: 60px; margin-top: 40px; text-align: center; color: #fff; background: #333; }}
+@media screen and (max-width: 640px) { 
+	/* 首页 */
+	.top{ width: 93.75%; margin: 0 auto; position: relative; }
+	.top .top_left{ width: 125px; margin: 10px auto 0; float: none; }
+	.top .share{ height: 30px; line-height: 30px; text-align: center; margin: 20px 0; }
+	.top .nav{ overflow: hidden; margin-top: 10px; }
+	.top .nav-btn{  width: 45px; height: 45px; background:pink; color: #fff;}
+	.top .nav ul{ background: pink; margin-top: 2px; display: none; }
+	.top .nav li{ width: 100%; height: 30px; width: 20%; }
+	.top .nav li a{ color: #fff; display: block; width: 100%; height: 100%; line-height: 30px; text-align: center; font-size: 14px; }
+	.top .top_right{float: left;}
+	.top .top_right{margin-top: 20px;}
+	.top .top_right img{margin-top: 5px;}
+	.top .top_right .select select{height: 30px;line-height: 30px;font-size: 13px;}
+	.myself_content .me_content h2{font-size: 20px;font-weight: bold;color: pink;line-height: 35px;border-bottom: 1px solid pink;}
+	.myself_content .me_content p{width: 98%;margin:10px auto 30px auto; line-height: 30px;font-size: 13px;text-indent: 30px;}
+	.myself_content .myself_content_l .left h2{font-size: 18px;font-weight: bold;line-height: 30px;letter-spacing: 1px;color: pink;font-style:oblique;}
+	.myself_content .myself_content_l .left h3{font-size: 18px;font-weight: bold;line-height: 30px;letter-spacing: 1px;color: #999;font-style:oblique;}
+	.myself_content .myself_content_l .left .share{margin-top: 10px;}
+	.myself_content .me_content{margin-top: 20px;}
+	.myself_content .me_content h2{font-size: 20px;font-weight: bold;color: pink;line-height: 35px;border-bottom: 1px solid pink;}
+	.myself_content .me_content p{width: 98%;margin:10px auto 30px auto; line-height: 30px;font-size: 13px;text-indent: 30px;}
+	.myself_content{ width: 93.75%; margin: 20px auto 0; }
+	.myself_content .left h2{ font-size: 16px; font-weight: bold; }
+	.myself_content .left p{ line-height: 24px; font-size: 14px; color: #333; }
+	.footer {font-size: 14px; line-height: 30px;  width: 100%; height: 30px; margin-top: 40px; text-align: center; color: #fff; background: #333; }
+	.myself_content .myself_content_r{margin-top: 50px; /*margin-left: 100px;*//*border-left: 2px solid pink;padding-left: 150px;*/margin-right: 30px;}
+	.h{height: 30px;}
+	.hh{height: 100px;}
+	.myself_content .myself_content_r .text{font-family: "微软雅黑"; display: block; width: 200px;line-height: 30px;font-size: 13px;padding: 5px 20px; border: 1px solid pink;border-radius: 3px;margin-bottom: 20px;}
+	.myself_content .myself_content_r .btn{background: pink;color: #fff;padding: 5px 15px;cursor: pointer;}
+	.myself_content .myself_content_r .btn:hover{font-weight: bold;}
+	.myself_content .photo .img{width: 90%;margin: 10px auto 20px auto;}
+	.myself_content .photo .img_con{width: 90%;margin: 0 auto;}
+	.myself_content .photo .img_btn{padding: 6px 15px;color: red;border: 1px solid red;}
+	.img_con h2{font-size: 22px;line-height: 40px;color: red;}
+	.img_con p{font-size: 15px;line-height: 35px;margin-bottom: 30px;}
+}
+@media screen and (max-width: 414px){
+	.myself_content .myself_content_r{margin-right: 50px;}
+}
+@media screen and (max-width: 375px){
+	.myself_content .myself_content_r{margin-right: 30px;}
+}
